@@ -1,0 +1,42 @@
+.home{
+    width: 100%;
+    height: 100%;
+}
+.homeLeftBlock{
+    width: 65%;
+    height: 100%;
+    background-color:#252836;
+}
+.homeRightBlock{
+    width: 35%;
+    height: 100%;
+    background-color:#1F1D2B;
+}
+.HomeHeader{
+    width: 100%;
+    height: 13%;
+    color:#fff; 
+}
+.header_date{
+    color: rgba(255, 255, 255, 0.682);
+}
+.header_search{
+    margin-right: 25px;
+}
+.homeMainBlock{
+    width: 100%;
+    height: 87%;
+}
+.homeMainMenu{
+    width: 100%;
+    height: 50px;
+    list-style-type: none;
+    padding: 10px 30px;
+    border-bottom: 1px rgba(255, 255, 255, 0.39) solid;
+    color:#fff;
+}
+.homeCards{
+    width: 100%;
+    height: 70%;
+    color:#fff;
+}
