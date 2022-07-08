@@ -48,6 +48,7 @@
     width: 93%;
     height: 100%;
 }
+<<<<<<< HEAD
 
 
 
@@ -55,6 +56,27 @@
 
 
 
+=======
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    background: #454854;
+  }
+  
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: #EA7C69;
+    border-radius:5px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ea7c697e;
+  }
+>>>>>>> 76837aa384c3c7115a06f992564ec3e6d7aca732
 @media only screen and (max-width:576px){
     .sidebar{
         width: 100%;

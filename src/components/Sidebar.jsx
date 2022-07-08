@@ -4,7 +4,7 @@ export default function Sidebar() {
   return (
     <div className="sidebar d-flex flex-xl-column flex-row">
                 <Link to="/" className='menu'><i class="bi bi-shop menu-icon"></i></Link>
-                <NavLink to="/" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-house menu-icon"></i></NavLink>
+                <NavLink to="/" className={({isActive}) => isActive ? "menu_active" : "menu"}><i class="bi bi-house menu-icon"></i></NavLink>
                 <NavLink to="/certificate" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-patch-check menu-icon"></i></NavLink>
                 <NavLink to="/statistic" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-pie-chart menu-icon"></i></NavLink>
                 <NavLink to="/message" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-envelope menu-icon"></i></NavLink>

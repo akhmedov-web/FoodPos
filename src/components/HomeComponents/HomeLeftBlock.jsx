@@ -1,20 +1,19 @@
 import React from 'react'
 import HomeHeader from './HomeHeader'
-import { BrowserRouter, Outlet, Link } from 'react-router-dom'
-import HomeDishes from './HomeDishes'
+import { Outlet, NavLink } from 'react-router-dom'
 export default function HomeLeftBlock() {
   return (
     <div className="homeLeftBlock">
       <HomeHeader />
       <div className="homeMainBlock">
-        <ul className='homeMainMenu d-flex justify-content-between align-items-center'>
-          <Link to="/home">Home dishes</Link>
-          <Link to="/home/colddishes">Cold dishes</Link>
-          <Link to="/home/soup">Soup</Link>
-          <Link to="/home/grill">Grill</Link>
-          <Link to="/home/appetizer">Appetizer</Link>
-          <Link to="/home/dessert">Dessert</Link>
-        </ul>
+        <div className='homeMainMenu d-flex justify-content-between align-items-center'>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/">Home dishes</NavLink>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/colddishes">Cold dishes</NavLink>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/soup">Soup</NavLink>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/grill">Grill</NavLink>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/appetizer">Appetizer</NavLink>
+          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/dessert">Dessert</NavLink>
+        </div>
         <div className="homeCards">
           <Outlet />
         </div>
