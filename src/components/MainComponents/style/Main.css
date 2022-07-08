@@ -13,7 +13,7 @@
 
 
 .main_left {
-    width: 65%;
+    width: 57%;
     overflow: scroll;
     overflow-x: hidden;
     color: white;
@@ -24,7 +24,7 @@
 }
 
 .urn {
-    width: 235px;
+    width: 200px;
     height: 190px;
     border: 1px solid white;
     background: #1F1D2B;
@@ -32,7 +32,7 @@
 }
 
 .main_right {
-    width: 35%;
+    width: 43%;
 }
 
 .table {
@@ -64,6 +64,11 @@
     border: 1px solid white;
     display: flex;
 
+}
+
+.salat:hover {
+    transform: rotateZ(360deg);
+    transition: 10s;
 }
 
 @media(max-width:576px) {

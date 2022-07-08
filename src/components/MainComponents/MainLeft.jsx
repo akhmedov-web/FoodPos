@@ -57,7 +57,7 @@ const MainLeft = () => {
                     </thead>
                     <tbody>
                         <tr>
-                            <th><img className='bg-warning rounded-circle' src={rasm1} /> Erenan Jaegar</th>
+                            <th><img className='bg-warning rounded-circle ' src={rasm1} /> Erenan Jaegar</th>
                             <td>Spicy seasoned <br /> seafood noodles </td>
                             <td>$125</td>
                             <button className='rounded-pill m-3'>Preparing</button>
@@ -65,7 +65,7 @@ const MainLeft = () => {
 
                         </tr>
                         <tr>
-                            <th><img className='bg-primary rounded-circle' src={rasm3} />   Erenan Jaegar</th>
+                            <th><img className='bg-primary rounded-circle ' src={rasm3} />   Erenan Jaegar</th>
                             <td>Salted Pasta with <br /> mushroom sauce</td>
                             <td>$145</td>
                             <button className='rounded-pill m-3 '>Preparing</button>
