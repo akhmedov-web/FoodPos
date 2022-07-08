@@ -72,6 +72,18 @@
     transition: 10s;
 }
 
+
+.certificate_img {
+    height: 100vh;
+    background-image: url(/src/components/MainComponents/img/img2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+
+}
+
+
+
 @media(max-width:576px) {
     .main {
         width: 100%;
@@ -114,5 +126,5 @@
 
     }
 
- 
+
 }
