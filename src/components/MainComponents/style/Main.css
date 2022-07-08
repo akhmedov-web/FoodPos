@@ -49,6 +49,7 @@
     border: none;
     background: rgba(107, 226, 190, 0.24);
     color: #50D1AA;
+    padding: 3px;
 
 }
 
@@ -112,4 +113,6 @@
         font-size: 11px;
 
     }
+
+ 
 }

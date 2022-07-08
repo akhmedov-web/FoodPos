@@ -50,7 +50,7 @@ const MainLeft = () => {
                     <thead>
                         <tr>
                             <th scope="col">Customer</th>
-                            <th style={{ padding: "2rem" }} scope="col">Menu</th>
+                            <th scope="col">Menu</th>
                             <th scope="col">Total Payment</th>
                             <th scope="col">Status</th>
                         </tr>
