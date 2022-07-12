@@ -32,7 +32,7 @@ const MainRight = () => {
                 <Case img={salat1}>Spicy seasoned seafood noodles soup<span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>120 dishes ordered</span></Case>
                 <Case img={salat2}>Beef dumpling in hot and sour soup <span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>80 dishes ordered</span></Case>
 
-                <button style={{ width: "90%", padding: '15px',color:" #EA7C69" }} className='m-4 bg-white border border-warning'>View All</button>
+                <button style={{ width: "90%", padding: '10px',color:" #EA7C69" }} className='m-4 border border-warning'>View All</button>
             </div>
 
             <div className=" text-white">
@@ -47,7 +47,7 @@ const MainRight = () => {
 
                 </div>
                 <div className=' d-flex'>
-                    <img src={circle} />
+                    <img style={{marginLeft:'3rem'}} src={circle} />
 
                     <ul className='m-auto'>
                         <li><img src={aylana1} />  Dine In <br /><span>200 customers</span></li>
