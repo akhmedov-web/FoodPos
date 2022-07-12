@@ -15,6 +15,8 @@
     width: 100%;
     height: 13%;
     color:#fff; 
+
+    padding: 0px 10px;
 }
 .header_date{
     color: rgba(255, 255, 255, 0.682);
@@ -74,7 +76,6 @@
     overflow-y: scroll;
 }
 .hotDishesCard{
-    height: 65%;
     width: 30%;
     background-color:#1F1D2B;
     border-radius:15px;
@@ -93,4 +94,58 @@
 .FoodImg{
     border-radius:50%;
     width: 60%;
+}
+.orderList{
+    height: 60%;
+    border-top: 1px solid rgba(255, 255, 255, 0.502);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.502);
+    overflow-y: scroll;
+}
+.orderAmountList{
+    height: 10%;
+}
+.orderAmount{
+    color:rgba(255, 255, 255, 0.547);
+}
+.homeOrderBtn{
+    border: #EA7C69 1px solid;
+    color:#EA7C69;
+}
+.PaymentBtn{
+    background-color: #EA7C69;
+    border: #EA7C69;
+    color:#fff;
+}
+.homeOrderInput::placeholder{
+    color:rgba(255, 255, 255, 0.514);
+}
+.orderImg{
+    border-radius:50%;
+    width: 42px;
+    height: 42px;
+}
+@media only screen and (max-width:576px){
+    .homeLeftBlock{
+        width: 100%;
+        height: 100%;
+    }
+    .hotDishesCard{
+        width: 90%;
+    }
+    .hotDishesCardArea{
+        display: block;
+    }
+    .FoodImg{
+        width: 50%;
+    }
+    .homeMenu{
+        color:#fff;
+        text-decoration: none;
+        font-size: 10px;
+    }
+    .homeMenuActive{
+        color:#EA7C69;
+        text-decoration: none;
+        font-size: 15px;
+    }
 }
