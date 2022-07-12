@@ -9,7 +9,7 @@ import Settings from './pages/Settings';
 import Logout from './pages/Logout';
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar';
-import HomeDishes from './components/HomeComponents/HomeDishes';
+import HotDishes from './components/HomeComponents/HotDishes';
 import ColdDishes from './components/HomeComponents/ColdDishes';
 import Dessert from './components/HomeComponents/Dessert';
 import Appetizer from './components/HomeComponents/Appetizer';
@@ -32,8 +32,8 @@ export default function App() {
             <Route path="/logout" element={<Logout />} />
 
             <Route path="/home" element={<Home />}>
-              <Route path="" element={<HomeDishes />}></Route>
-              <Route path="homedishes" element={<HomeDishes />}></Route>
+              <Route path="" element={<HotDishes />}></Route>
+              <Route path="homedishes" element={<HotDishes />}></Route>
               <Route path="colddishes" element={<ColdDishes />}></Route>
               <Route path="soup" element={<Soup />}></Route>
               <Route path="grill" element={<Grill />}></Route>

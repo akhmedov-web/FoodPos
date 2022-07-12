@@ -47,7 +47,7 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
 
 export default function SearchAppBar() {
   return (
-        <div className='HomeHeader d-flex align-items-center justify-content-between'>
+        <div className='HomeHeader d-xl-flex align-items-center justify-content-between d-block'>
             <ul className='mt-4'>
               <h2>Jaegar Resto</h2>
               <p className='header_date'>Tuesday, 2 Feb 2021</p>
