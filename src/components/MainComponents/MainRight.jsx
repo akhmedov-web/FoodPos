@@ -47,7 +47,7 @@ const MainRight = () => {
 
                 </div>
                 <div className=' d-flex'>
-                    <img style={{marginLeft:'3rem'}} src={circle} />
+                    <img style={{marginLeft:'3rem',width:'30%'}} src={circle} />
 
                     <ul className='m-auto'>
                         <li><img src={aylana1} />  Dine In <br /><span>200 customers</span></li>
