@@ -1,5 +1,6 @@
 import React from 'react'
-import HomeHeader from './HomeHeader'
+import HomeHeader from './HomeHeader';
+import HotDishes from './HotDishes';
 import { Outlet, NavLink } from 'react-router-dom'
 export default function HomeLeftBlock() {
   return (
@@ -7,15 +8,15 @@ export default function HomeLeftBlock() {
       <HomeHeader />
       <div className="homeMainBlock">
         <div className='homeMainMenu d-flex justify-content-between align-items-center'>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/">Home dishes</NavLink>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/colddishes">Cold dishes</NavLink>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/soup">Soup</NavLink>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/grill">Grill</NavLink>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/appetizer">Appetizer</NavLink>
-          <NavLink className={({isActive}) => isActive ? "homeMenuActive" : "homeMenu"} to="/home/dessert">Dessert</NavLink>
+          <li className="homeMenu">Home dishes</li>
+          <li className="homeMenu">Cold dishes</li>
+          <li className="homeMenu">Soup</li>
+          <li className="homeMenu">Grill</li>
+          <li className="homeMenu">Appetizer</li>
+          <li className="homeMenu">Dessert</li>
         </div>
         <div className="homeCards">
-          <Outlet />
+          <HotDishes/>
         </div>
       </div>
     </div>

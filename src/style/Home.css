@@ -44,16 +44,13 @@
 .homeMenu{
     color:#fff;
     text-decoration: none;
+    cursor:pointer;
 }
-.homeMenu:hover{
-    color:#fff;
-    text-decoration: none;
-}
-.homeMenuActive{
+.homeMenu:active{
     color:#EA7C69;
     text-decoration: none;
 }
-.homeMenuActive:hover{
+.homeMenu:hover{
     color:#EA7C69;
     text-decoration: none;
 }

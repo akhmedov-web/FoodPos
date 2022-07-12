@@ -26,6 +26,7 @@ export default function HomeRightBlock() {
 <OrderCard/>
       </div>
       <table className='w-100 orderAmountList mt-2'>
+        <tbody>
         <tr>
           <td className='orderAmount'>Discount</td>
           <td className='text-end'>$0</td>
@@ -34,6 +35,7 @@ export default function HomeRightBlock() {
           <td className='orderAmount'>Sub total</td>
           <td className='text-end'> $ 21,03</td>
         </tr>
+        </tbody>
       </table>
       <button type="button" class="btn btn-danger w-100 mt-2 PaymentBtn">Continue to Payment</button>
     </div>

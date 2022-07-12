@@ -9,12 +9,6 @@ import Settings from './pages/Settings';
 import Logout from './pages/Logout';
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar';
-import HotDishes from './components/HomeComponents/HotDishes';
-import ColdDishes from './components/HomeComponents/ColdDishes';
-import Dessert from './components/HomeComponents/Dessert';
-import Appetizer from './components/HomeComponents/Appetizer';
-import Soup from './components/HomeComponents/Soup';
-import Grill from './components/HomeComponents/Grill';
 
 export default function App() {
   return (
@@ -30,17 +24,6 @@ export default function App() {
             <Route path="/notification" element={<Notification />} />
             <Route path="/settings" element={<Settings />} />
             <Route path="/logout" element={<Logout />} />
-
-            <Route path="/home" element={<Home />}>
-              <Route path="" element={<HotDishes />}></Route>
-              <Route path="homedishes" element={<HotDishes />}></Route>
-              <Route path="colddishes" element={<ColdDishes />}></Route>
-              <Route path="soup" element={<Soup />}></Route>
-              <Route path="grill" element={<Grill />}></Route>
-              <Route path="appetizer" element={<Appetizer />}></Route>
-              <Route path="dessert" element={<Dessert />}></Route>
-            </Route>
-
           </Routes>
         </div>
       </BrowserRouter>
