@@ -29,8 +29,8 @@ const MainRight = () => {
                 </div>
 
                 <Case img={salat2}>Spicy seasoned seafood noodles soup <span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>200 dishes ordered</span></Case>
-                <Case img={salat1}>Spicy seasoned seafood noodles soup<span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>120 dishes ordered</span></Case>
-                <Case img={salat2}>Beef dumpling in hot and sour soup <span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>80 dishes ordered</span></Case>
+                <Case img={salat1}>Spicy seasoned seafood noodles soup <span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>200 dishes ordered</span></Case>
+                <Case img={salat2}>Spicy seasoned seafood noodles soup <span style={{ fontWeight: "100", color: "#ABBBC2", margin: "2rem" }}>200 dishes ordered</span></Case>
 
                 <button style={{ width: "90%", padding: '10px', color: " #EA7C69" }} className='m-4 border border-warning'>View All</button>
             </div>
