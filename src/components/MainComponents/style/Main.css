@@ -67,6 +67,11 @@
 
 }
 
+.salat {
+    width: 40%;
+    height: 100%;
+}
+
 .salat:hover {
     transform: rotateZ(360deg);
     transition: 10s;
@@ -102,13 +107,21 @@
         width: 100%;
     }
 
+    .main-block {
+        margin: 0;
+    }
+
     .urn {
-        width: auto;
+        width: 92%;
         border: 1px solid white;
         background: #1F1D2B;
         border-radius: 8px;
     }
 
+    .salat {
+        width: 50%;
+        height: 100%;
+    }
 
 
     .case {
