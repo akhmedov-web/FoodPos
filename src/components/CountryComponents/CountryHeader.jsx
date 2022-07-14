@@ -37,16 +37,16 @@ const StyledInputBase = styled(InputBase)(({ theme }) => ({
     transition: theme.transitions.create('width'),
     width: '100%',
     [theme.breakpoints.up('sm')]: {
-        width: '20ch',
+        width: '30ch',
         '&:focus': {
-        width: '24ch',
+        width: '34ch',
         },
     },
     },
 }));
 
-export default function SearchAppBar() {
-  
+export default function CountryHeader() {
+
 const days = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 const months = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"];
 const date = new Date();
@@ -54,17 +54,17 @@ let day = days[date.getDay()];
 let month = months[date.getMonth()];
 
   return (
-        <div className='HomeHeader d-xl-flex align-items-center justify-content-between d-block'>
+        <div className='CountryHeader d-xl-flex align-items-center justify-content-between d-block'>
             <ul className='mt-4'>
-              <h2>Jaegar Resto</h2>
-              <p className='header_date'>{day} , {date.getDate()} {month} {date.getFullYear()}</p>
+              <h2>Look up around the world</h2>
+              <p className='country_date'>{day} , {date.getDate()} {month} {date.getFullYear()}</p>
             </ul>
-            <Search className='header_search'>
+            <Search className='country_search mb-3'>
             <SearchIconWrapper>
                 <SearchIcon />
             </SearchIconWrapper>
             <StyledInputBase
-                placeholder="Search…"
+                placeholder="Search by country..."
                 inputProps={{ 'aria-label': 'search' }}
             />
             </Search>

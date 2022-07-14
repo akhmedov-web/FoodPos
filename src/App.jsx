@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./index.css";
-import Certificate from './pages/Certificate';
+import Country from './pages/Country';
 import Statistic from './pages/Statistic';
 import Message from './pages/Message.jsx';
 import Notification from './pages/Notification';
@@ -18,7 +18,7 @@ export default function App() {
         <div className="main">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/certificate" element={<Certificate />} />
+            <Route path="/country" element={<Country />} />
             <Route path="/statistic" element={<Statistic />} />
             <Route path="/message" element={<Message />} />
             <Route path="/notification" element={<Notification />} />

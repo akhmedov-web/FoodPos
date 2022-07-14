@@ -1,7 +1,6 @@
 import React from 'react'
 import HomeHeader from './HomeHeader';
 import HotDishes from './HotDishes';
-import { Outlet, NavLink } from 'react-router-dom'
 export default function HomeLeftBlock() {
   return (
     <div className="homeLeftBlock">
