@@ -1,7 +1,7 @@
 import React from 'react';
 
 import '../SettingsComponents/style/settings.css'
-import SettingsCard from './pages/settingsCard';
+import SettingsCard from './pages/SettingsCard';
 
 
 const SettingsLeft = () => {

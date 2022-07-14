@@ -3,7 +3,7 @@ import Boxs from './Boxs';
 
 
 
-const settingsCard = () => {
+const SettingsCard = () => {
     return (
         <div className='settings_card'>
             <Boxs name="Appereance" about="Dark and Light mode, Font size"> <i class="bi bi-heart-fill"></i> </Boxs>
@@ -20,4 +20,4 @@ const settingsCard = () => {
     );
 };
 
-export default settingsCard;
+export default SettingsCard;
