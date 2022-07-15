@@ -7,9 +7,6 @@ export default function Sidebar() {
                 <NavLink to="/" className={({isActive}) => isActive ? "menu_active" : "menu"}><i class="bi bi-house menu-icon"></i></NavLink>
                 <NavLink to="/country" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-globe"></i></NavLink>
                 <NavLink to="/statistic" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-pie-chart menu-icon"></i></NavLink>
-                <NavLink to="/message" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-envelope menu-icon"></i></NavLink>
-                <NavLink to="/notification" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-bell menu-icon"></i></NavLink>
-                <NavLink to="/settings" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-gear menu-icon"></i></NavLink>
                 <NavLink to="/logout" className={({isActive}) => isActive ? "menu_active":"menu"}><i class="bi bi-box-arrow-right menu-icon"></i></NavLink>
     </div>
   )

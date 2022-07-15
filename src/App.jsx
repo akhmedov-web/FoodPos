@@ -3,10 +3,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import "./index.css";
 import Country from './pages/Country';
 import Statistic from './pages/Statistic';
-import Message from './pages/Message.jsx';
-import Notification from './pages/Notification';
 import Settings from './pages/Settings';
-import Logout from './pages/Logout';
 import Home from './pages/Home';
 import Sidebar from './components/Sidebar';
 
@@ -20,10 +17,8 @@ export default function App() {
             <Route path="/" element={<Home />} />
             <Route path="/country" element={<Country />} />
             <Route path="/statistic" element={<Statistic />} />
-            <Route path="/message" element={<Message />} />
-            <Route path="/notification" element={<Notification />} />
             <Route path="/settings" element={<Settings />} />
-            <Route path="/logout" element={<Logout />} />
+            <Route path="/logout" element={<Home />} />
           </Routes>
         </div>
       </BrowserRouter>
